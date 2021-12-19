@@ -95,7 +95,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    if (HAL_GPIO_ReadPin(SW1_GPIO_Port,SW1_Pin)){
+    if (HAL_GPIO_ReadPin( SW1_GPIO_Port,SW1_Pin)){
       HAL_GPIO_TogglePin(LD1R_GPIO_Port, LD1R_Pin);
     }
   }
